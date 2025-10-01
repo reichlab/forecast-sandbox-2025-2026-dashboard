@@ -1,0 +1,4 @@
+"model_id","wis_scaled_relative_skill","wis","ae_median_scaled_relative_skill","ae_median","interval_coverage_50","interval_coverage_95","n"
+"UMass-AR2",1,281.270172584146,1,207.488415924428,0.916666666666667,1,12
+"UMass-AR6_pooled",0.78847310723146,221.773966948951,1.0900369524163,226.170040555949,1,1,12
+"UMass-AR6_unpooled",1.08765260343311,305.924235479228,2.29868908445411,476.951356836155,0.75,1,12
