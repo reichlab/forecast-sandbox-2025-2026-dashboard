@@ -9,7 +9,7 @@ targets:
   relative_metrics:
   - wis
   - ae_median
-  baseline: AR2
+  baseline: UMass-AR2
   disaggregate_by:
   - location
   - reference_date
