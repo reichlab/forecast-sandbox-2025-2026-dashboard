@@ -303,8 +303,9 @@
         "UMass-AR6_unpooled"
     ],
     "initial_checked_models": [
-        "FluSight-ensemble",
-        "FluSight-baseline"
+        "UMass-AR2",
+        "UMass-AR6_pooled",
+        "UMass-AR6_unpooled"
     ],
     "model_urls": {
         "UMass-AR2": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR2.yml",
