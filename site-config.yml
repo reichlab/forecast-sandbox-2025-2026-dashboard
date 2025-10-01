@@ -1,7 +1,4 @@
 ---
-hub: "cdcepi/FluSight-forecast-hub/"
-title: "Example Hub Dashboard Website"
-pages:
-  - "about.md"
-  - "data.qmd"
+hub: "reichlab/forecast-sandbox-2025-2026"
+title: "Reich Lab Sandbox Forecast Dashboard 2025/2026"
 
