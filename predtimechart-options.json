@@ -299,6 +299,7 @@
     "current_date": "2025-05-17",
     "models": [
         "UMass-AR2",
+        "UMass-AR4_pooled",
         "UMass-AR6_pooled",
         "UMass-AR6_unpooled"
     ],
@@ -309,6 +310,7 @@
     ],
     "model_urls": {
         "UMass-AR2": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR2.yml",
+        "UMass-AR4_pooled": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR4_pooled.yml",
         "UMass-AR6_pooled": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_pooled.yml",
         "UMass-AR6_unpooled": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_unpooled.yml"
     },
