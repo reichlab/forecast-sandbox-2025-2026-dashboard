@@ -16,15 +16,6 @@ on:
         type: boolean
         required: false
         default: false
-      data:
-        description: "(Forecast) Which forecast page data should be built?"
-        type: choice
-        options:
-          - 'target'
-          - 'forecast'
-          - 'both'
-        required: false
-        default: 'both'
       publish:
         description: "Push Data to branch (uncheck for a dry run)"
         type: boolean
@@ -43,7 +34,7 @@ jobs:
       slug: '${{ github.event.repository.owner.login }}'
       email: '${{ github.event.repository.owner.id }}+${{ github.event.repository.owner.login }}@users.noreply.github.com'
       regenerate: ${{ inputs.regenerate || false }}
-      build: ${{ inputs.data || 'both' }}
+      build: 'forecast'
       publish: ${{ inputs.publish || github.event_name == 'schedule' || github.event_name == 'push' }}
     secrets:
       id: 'none'
