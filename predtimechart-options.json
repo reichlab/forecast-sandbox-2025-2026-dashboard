@@ -306,7 +306,8 @@
         "UMass-AR6_pooled_sigma",
         "UMass-AR6_pooled_xmas",
         "UMass-AR6_unpooled",
-        "UMass-flusion"
+        "UMass-flusion",
+        "UMass-flusion_fourier"
     ],
     "initial_checked_models": [
         "UMass-AR2",
@@ -317,6 +318,7 @@
         "UMass-AR6_pooled_both": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_pooled_both.yml",
         "UMass-AR6_fourier_pooled_both": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_fourier_pooled_both.yml",
         "UMass-flusion": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-flusion.yml",
+        "UMass-flusion_fourier": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-flusion_fourier.yml",
         "UMass-AR6_fourier_d1_pooled": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_fourier_d1_pooled.yml",
         "UMass-AR2": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR2.yml",
         "UMass-AR6_pooled_xmas": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_pooled_xmas.yml",
