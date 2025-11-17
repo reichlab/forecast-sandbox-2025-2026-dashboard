@@ -310,6 +310,8 @@
         "UMass-flusion",
         "UMass-flusion_fourier",
         "UMass-gbqr",
+        "UMass-gbqr_3src",
+        "UMass-gbqr_3src_spatial",
         "UMass-gbqr_spatial",
         "UMass-trends_ensemble"
     ],
@@ -319,6 +321,7 @@
         "UMass-AR6_unpooled"
     ],
     "model_urls": {
+        "UMass-gbqr_3src_spatial": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_3src_spatial.yml",
         "UMass-AR6_pooled_both": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_pooled_both.yml",
         "UMass-AR6_fourier_pooled_both": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_fourier_pooled_both.yml",
         "UMass-flusion": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-flusion.yml",
@@ -328,6 +331,7 @@
         "UMass-AR6_pooled_xmas": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_pooled_xmas.yml",
         "UMass-AR6_pooled_sigma": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_pooled_sigma.yml",
         "UMass-gbqr": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr.yml",
+        "UMass-gbqr_3src": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_3src.yml",
         "UMass-trends_ensemble": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-trends_ensemble.yml",
         "UMass-gbqr_spatial": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_spatial.yml",
         "UMass-AR4_pooled": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR4_pooled.yml",
