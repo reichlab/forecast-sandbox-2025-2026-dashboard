@@ -309,6 +309,7 @@
         "UMass-flusion_fourier",
         "UMass-flusion_spatial",
         "UMass-flusion_spatial2",
+        "UMass-flusion_spatial2_prod",
         "UMass-gbqr",
         "UMass-gbqr_3src",
         "UMass-gbqr_3src_spatial",
@@ -343,6 +344,7 @@
         "UMass-AR6_pooled_fourier": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_pooled_fourier.yml",
         "UMass-AR6_fourierP_thetaP": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_fourierP_thetaP.yml",
         "UMass-flusion_spatial2": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-flusion_spatial2.yml",
+        "UMass-flusion_spatial2_prod": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-flusion_spatial2_prod.yml",
         "UMass-AR6_unpooled": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_unpooled.yml"
     },
     "initial_xaxis_range": [
