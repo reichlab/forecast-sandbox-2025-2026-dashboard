@@ -1,5 +1,10 @@
-schema_version: https://raw.githubusercontent.com/hubverse-org/hubPredEvalsData/main/inst/schema/v1.0.1/config_schema.json
+schema_version: https://raw.githubusercontent.com/hubverse-org/hubPredEvalsData/main/inst/schema/v1.1.0/config_schema.json
 rounds_idx: 0
+transform_defaults:
+  fun: log_shift
+  args:
+    offset: 1
+  label: log
 targets:
 - target_id: wk inc flu hosp
   metrics:
@@ -16,8 +21,23 @@ targets:
   - reference_date
   - horizon
   - target_end_date
+- target_id: wk inc flu prop ed visits
+  metrics:
+  - wis
+  - ae_median
+  - interval_coverage_50
+  - interval_coverage_95
+  relative_metrics:
+  - wis
+  - ae_median
+  baseline: UMass-AR2
+  disaggregate_by:
+  - location
+  - reference_date
+  - horizon
+  - target_end_date
 eval_sets:
-- eval_set_name: two seasons, state level
+- eval_set_name: three seasons, state level
   task_filters:
     location:
     - "01"
@@ -76,7 +96,7 @@ eval_sets:
     - 1
     - 2
     - 3
-- eval_set_name: two seasons, US national level
+- eval_set_name: three seasons, US national level
   task_filters:
     location:
     - "US"
@@ -85,6 +105,132 @@ eval_sets:
     - 1
     - 2
     - 3
+- eval_set_name: 2025-2026 season, state level
+  task_filters:
+    location:
+    - "01"
+    - "02"
+    - "04"
+    - "05"
+    - "06"
+    - "08"
+    - "09"
+    - "10"
+    - "11"
+    - "12"
+    - "13"
+    - "15"
+    - "16"
+    - "17"
+    - "18"
+    - "19"
+    - "20"
+    - "21"
+    - "22"
+    - "23"
+    - "24"
+    - "25"
+    - "26"
+    - "27"
+    - "28"
+    - "29"
+    - "30"
+    - "31"
+    - "32"
+    - "33"
+    - "34"
+    - "35"
+    - "36"
+    - "37"
+    - "38"
+    - "39"
+    - "40"
+    - "41"
+    - "42"
+    - "44"
+    - "45"
+    - "46"
+    - "47"
+    - "48"
+    - "49"
+    - "50"
+    - "51"
+    - "53"
+    - "54"
+    - "55"
+    - "56"
+    horizon:
+    - 0
+    - 1
+    - 2
+    - 3
+    reference_date:
+    - "2025-11-22"
+    - "2025-11-29"
+    - "2025-12-06"
+    - "2025-12-13"
+    - "2025-12-20"
+    - "2025-12-27"
+    - "2026-01-03"
+    - "2026-01-10"
+    - "2026-01-17"
+    - "2026-01-24"
+    - "2026-01-31"
+    - "2026-02-07"
+    - "2026-02-14"
+    - "2026-02-21"
+    - "2026-02-28"
+    - "2026-03-07"
+    - "2026-03-14"
+    - "2026-03-21"
+    - "2026-03-28"
+    - "2026-04-04"
+    - "2026-04-11"
+    - "2026-04-18"
+    - "2026-04-25"
+    - "2026-05-02"
+    - "2026-05-09"
+    - "2026-05-16"
+    - "2026-05-23"
+    - "2026-05-30"
+- eval_set_name: 2025-2026 season, US national level
+  task_filters:
+    location:
+    - "US"
+    horizon:
+    - 0
+    - 1
+    - 2
+    - 3
+    reference_date:
+    - "2025-11-22"
+    - "2025-11-29"
+    - "2025-12-06"
+    - "2025-12-13"
+    - "2025-12-20"
+    - "2025-12-27"
+    - "2026-01-03"
+    - "2026-01-10"
+    - "2026-01-17"
+    - "2026-01-24"
+    - "2026-01-31"
+    - "2026-02-07"
+    - "2026-02-14"
+    - "2026-02-21"
+    - "2026-02-28"
+    - "2026-03-07"
+    - "2026-03-14"
+    - "2026-03-21"
+    - "2026-03-28"
+    - "2026-04-04"
+    - "2026-04-11"
+    - "2026-04-18"
+    - "2026-04-25"
+    - "2026-05-02"
+    - "2026-05-09"
+    - "2026-05-16"
+    - "2026-05-23"
+    - "2026-05-30"
 - eval_set_name: 2024-2025 season, state level
   task_filters:
     location:
