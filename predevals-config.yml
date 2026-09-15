@@ -15,7 +15,7 @@ targets:
   relative_metrics:
   - wis
   - ae_median
-  baseline: UMass-AR2
+  baseline: FluSight-baseline
   disaggregate_by:
   - location
   - reference_date
@@ -30,7 +30,7 @@ targets:
   relative_metrics:
   - wis
   - ae_median
-  baseline: UMass-AR2
+  baseline: FluSight-baseline
   disaggregate_by:
   - location
   - reference_date
