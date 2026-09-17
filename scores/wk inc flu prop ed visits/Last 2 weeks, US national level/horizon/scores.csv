@@ -1,0 +1,5 @@
+"model_id","horizon","wis_scaled_relative_skill","wis_scaled_relative_skill__log","wis","wis__log","ae_median_scaled_relative_skill","ae_median_scaled_relative_skill__log","ae_median","ae_median__log","interval_coverage_50","interval_coverage_95","n"
+"FluSight-baseline",0,1,1,0.000517904057971006,0.000515623178947675,1,1,0.000233333333333333,0.000232710022815178,1,1,3
+"FluSight-baseline",1,1,1,0.000986462552792913,0.000981453938663824,1,1,6e-04,0.000598590084163664,1,1,3
+"FluSight-baseline",2,1,1,0.0013668534937871,0.00135911053371145,1,1,0.0009333333333333,0.000931291312835012,1,1,3
+"FluSight-baseline",3,1,1,0.00165743548205626,0.00164722624892897,1,1,0.00126666666666663,0.00126409219245003,1,1,3

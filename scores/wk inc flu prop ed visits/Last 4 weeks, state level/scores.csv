@@ -1,0 +1,2 @@
+"model_id","wis_scaled_relative_skill","wis_scaled_relative_skill__log","wis","wis__log","ae_median_scaled_relative_skill","ae_median_scaled_relative_skill__log","ae_median","ae_median__log","interval_coverage_50","interval_coverage_95","n"
+"FluSight-baseline",1,1,0.00138689384569656,0.00137667335730599,1,1,0.00111600012450124,0.00111136692574826,0.947,1,1000
