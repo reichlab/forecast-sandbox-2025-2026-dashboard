@@ -4,11 +4,232 @@
             "value": "wk inc flu hosp",
             "text": "incident influenza hospitalizations",
             "plot_text": "incident influenza hospitalizations"
+        },
+        {
+            "value": "wk inc flu prop ed visits",
+            "text": "proportion of weekly incident ED visits due to influenza",
+            "plot_text": "proportion of weekly incident ED visits due to influenza"
         }
     ],
     "initial_target_var": "wk inc flu hosp",
     "task_ids": {
         "wk inc flu hosp": {
+            "location": [
+                {
+                    "value": "US",
+                    "text": "United States"
+                },
+                {
+                    "value": "01",
+                    "text": "Alabama"
+                },
+                {
+                    "value": "02",
+                    "text": "Alaska"
+                },
+                {
+                    "value": "04",
+                    "text": "Arizona"
+                },
+                {
+                    "value": "05",
+                    "text": "Arkansas"
+                },
+                {
+                    "value": "06",
+                    "text": "California"
+                },
+                {
+                    "value": "08",
+                    "text": "Colorado"
+                },
+                {
+                    "value": "09",
+                    "text": "Connecticut"
+                },
+                {
+                    "value": "10",
+                    "text": "Delaware"
+                },
+                {
+                    "value": "11",
+                    "text": "District of Columbia"
+                },
+                {
+                    "value": "12",
+                    "text": "Florida"
+                },
+                {
+                    "value": "13",
+                    "text": "Georgia"
+                },
+                {
+                    "value": "15",
+                    "text": "Hawaii"
+                },
+                {
+                    "value": "16",
+                    "text": "Idaho"
+                },
+                {
+                    "value": "17",
+                    "text": "Illinois"
+                },
+                {
+                    "value": "18",
+                    "text": "Indiana"
+                },
+                {
+                    "value": "19",
+                    "text": "Iowa"
+                },
+                {
+                    "value": "20",
+                    "text": "Kansas"
+                },
+                {
+                    "value": "21",
+                    "text": "Kentucky"
+                },
+                {
+                    "value": "22",
+                    "text": "Louisiana"
+                },
+                {
+                    "value": "23",
+                    "text": "Maine"
+                },
+                {
+                    "value": "24",
+                    "text": "Maryland"
+                },
+                {
+                    "value": "25",
+                    "text": "Massachusetts"
+                },
+                {
+                    "value": "26",
+                    "text": "Michigan"
+                },
+                {
+                    "value": "27",
+                    "text": "Minnesota"
+                },
+                {
+                    "value": "28",
+                    "text": "Mississippi"
+                },
+                {
+                    "value": "29",
+                    "text": "Missouri"
+                },
+                {
+                    "value": "30",
+                    "text": "Montana"
+                },
+                {
+                    "value": "31",
+                    "text": "Nebraska"
+                },
+                {
+                    "value": "32",
+                    "text": "Nevada"
+                },
+                {
+                    "value": "33",
+                    "text": "New Hampshire"
+                },
+                {
+                    "value": "34",
+                    "text": "New Jersey"
+                },
+                {
+                    "value": "35",
+                    "text": "New Mexico"
+                },
+                {
+                    "value": "36",
+                    "text": "New York"
+                },
+                {
+                    "value": "37",
+                    "text": "North Carolina"
+                },
+                {
+                    "value": "38",
+                    "text": "North Dakota"
+                },
+                {
+                    "value": "39",
+                    "text": "Ohio"
+                },
+                {
+                    "value": "40",
+                    "text": "Oklahoma"
+                },
+                {
+                    "value": "41",
+                    "text": "Oregon"
+                },
+                {
+                    "value": "42",
+                    "text": "Pennsylvania"
+                },
+                {
+                    "value": "44",
+                    "text": "Rhode Island"
+                },
+                {
+                    "value": "45",
+                    "text": "South Carolina"
+                },
+                {
+                    "value": "46",
+                    "text": "South Dakota"
+                },
+                {
+                    "value": "47",
+                    "text": "Tennessee"
+                },
+                {
+                    "value": "48",
+                    "text": "Texas"
+                },
+                {
+                    "value": "49",
+                    "text": "Utah"
+                },
+                {
+                    "value": "50",
+                    "text": "Vermont"
+                },
+                {
+                    "value": "51",
+                    "text": "Virginia"
+                },
+                {
+                    "value": "53",
+                    "text": "Washington"
+                },
+                {
+                    "value": "54",
+                    "text": "West Virginia"
+                },
+                {
+                    "value": "55",
+                    "text": "Wisconsin"
+                },
+                {
+                    "value": "56",
+                    "text": "Wyoming"
+                },
+                {
+                    "value": "72",
+                    "text": "Puerto Rico"
+                }
+            ]
+        },
+        "wk inc flu prop ed visits": {
             "location": [
                 {
                     "value": "US",
@@ -288,34 +509,79 @@
             "2025-04-19",
             "2025-05-03",
             "2025-05-10",
-            "2025-05-17"
+            "2025-05-17",
+            "2025-11-22",
+            "2025-11-29",
+            "2025-12-06",
+            "2025-12-13",
+            "2025-12-20",
+            "2025-12-27",
+            "2026-01-03",
+            "2026-01-10",
+            "2026-01-17",
+            "2026-01-24",
+            "2026-01-31",
+            "2026-02-07",
+            "2026-02-14",
+            "2026-02-21",
+            "2026-02-28",
+            "2026-03-07",
+            "2026-03-14",
+            "2026-03-21",
+            "2026-03-28",
+            "2026-04-04",
+            "2026-04-11",
+            "2026-04-18",
+            "2026-04-25",
+            "2026-05-02",
+            "2026-05-09",
+            "2026-05-16",
+            "2026-05-23",
+            "2026-05-30"
+        ],
+        "wk inc flu prop ed visits": [
+            "2025-11-22",
+            "2025-11-29",
+            "2025-12-06",
+            "2025-12-13",
+            "2025-12-20",
+            "2025-12-27",
+            "2026-01-03",
+            "2026-01-10",
+            "2026-01-17",
+            "2026-01-24",
+            "2026-01-31",
+            "2026-02-07",
+            "2026-02-14",
+            "2026-02-21",
+            "2026-02-28",
+            "2026-03-07",
+            "2026-03-14",
+            "2026-03-21",
+            "2026-03-28",
+            "2026-04-04",
+            "2026-04-11",
+            "2026-04-18",
+            "2026-04-25",
+            "2026-05-02",
+            "2026-05-09",
+            "2026-05-16",
+            "2026-05-23",
+            "2026-05-30"
         ]
     },
-    "initial_as_of": "2025-05-17",
-    "current_date": "2025-05-17",
+    "initial_as_of": "2026-05-30",
+    "current_date": "2026-05-30",
     "models": [
+        "FluSight-baseline",
         "UMass-AR2",
         "UMass-AR6_pooled",
-        "UMass-AR4_pooled",
         "UMass-AR6_fourierP_thetaP",
-        "UMass-AR6_fourier_d1_pooled",
-        "UMass-AR6_fourier_pooled_both",
-        "UMass-AR6_pooled_both",
-        "UMass-AR6_pooled_fourier",
-        "UMass-AR6_pooled_sigma",
-        "UMass-AR6_pooled_xmas",
-        "UMass-AR6_unpooled",
         "UMass-chronos_small",
         "UMass-flusion",
-        "UMass-flusion_fourier",
-        "UMass-flusion_spatial",
-        "UMass-flusion_spatial2",
         "UMass-flusion_spatial2_prod",
         "UMass-gbqr",
-        "UMass-gbqr_3src",
         "UMass-gbqr_3src_spatial",
-        "UMass-gbqr_3src_spatial2",
-        "UMass-gbqr_spatial",
         "UMass-trends_ensemble"
     ],
     "initial_checked_models": [
@@ -325,27 +591,14 @@
     ],
     "model_urls": {
         "UMass-flusion_spatial2_prod": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-flusion_spatial2_prod.yml",
-        "UMass-gbqr_spatial": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_spatial.yml",
         "UMass-gbqr": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr.yml",
-        "UMass-flusion_spatial2": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-flusion_spatial2.yml",
-        "UMass-AR6_pooled_fourier": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_pooled_fourier.yml",
-        "UMass-AR6_fourier_pooled_both": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_fourier_pooled_both.yml",
         "UMass-AR6_pooled": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_pooled.yml",
-        "UMass-AR6_pooled_xmas": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_pooled_xmas.yml",
-        "UMass-gbqr_3src_spatial2": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_3src_spatial2.yml",
-        "UMass-AR6_unpooled": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_unpooled.yml",
         "UMass-AR6_fourierP_thetaP": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_fourierP_thetaP.yml",
-        "UMass-flusion_fourier": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-flusion_fourier.yml",
         "UMass-trends_ensemble": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-trends_ensemble.yml",
         "UMass-flusion": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-flusion.yml",
-        "UMass-AR6_pooled_both": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_pooled_both.yml",
+        "FluSight-baseline": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/FluSight-baseline.yml",
         "UMass-gbqr_3src_spatial": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_3src_spatial.yml",
         "UMass-AR2": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR2.yml",
-        "UMass-gbqr_3src": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_3src.yml",
-        "UMass-AR6_fourier_d1_pooled": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_fourier_d1_pooled.yml",
-        "UMass-AR6_pooled_sigma": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_pooled_sigma.yml",
-        "UMass-flusion_spatial": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-flusion_spatial.yml",
-        "UMass-AR4_pooled": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR4_pooled.yml",
         "UMass-chronos_small": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-chronos_small.yml"
     },
     "initial_xaxis_range": [
