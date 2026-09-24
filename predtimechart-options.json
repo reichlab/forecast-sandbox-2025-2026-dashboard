@@ -591,15 +591,15 @@
     ],
     "model_urls": {
         "UMass-flusion_spatial2_prod": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-flusion_spatial2_prod.yml",
-        "UMass-gbqr": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr.yml",
         "UMass-AR6_pooled": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_pooled.yml",
+        "UMass-chronos_small": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-chronos_small.yml",
+        "UMass-AR2": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR2.yml",
+        "UMass-flusion": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-flusion.yml",
+        "UMass-gbqr": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr.yml",
+        "UMass-gbqr_3src_spatial": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_3src_spatial.yml",
         "UMass-AR6_fourierP_thetaP": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_fourierP_thetaP.yml",
         "UMass-trends_ensemble": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-trends_ensemble.yml",
-        "UMass-flusion": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-flusion.yml",
-        "FluSight-baseline": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/FluSight-baseline.yml",
-        "UMass-gbqr_3src_spatial": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_3src_spatial.yml",
-        "UMass-AR2": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR2.yml",
-        "UMass-chronos_small": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-chronos_small.yml"
+        "FluSight-baseline": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/FluSight-baseline.yml"
     },
     "initial_xaxis_range": [
         "2023-09-01",
