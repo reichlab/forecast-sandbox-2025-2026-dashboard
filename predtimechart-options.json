@@ -620,6 +620,9 @@
         "UMass-gbqr_5src_utseirs_otid10",
         "UMass-gbqr_5src_utseirs_otid100",
         "UMass-gbqr_5src_utseirs_otid50",
+        "UMass-gbqr_nih10_ar6fp",
+        "UMass-gbqr_nih10_ar6p",
+        "UMass-gbqr_nih10_wisar",
         "UMass-trends_ensemble"
     ],
     "initial_checked_models": [
@@ -652,6 +655,8 @@
         "UMass-gbqr_3src_spatial": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_3src_spatial.yml",
         "UMass-gbqr_4src_nssp": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_4src_nssp.yml",
         "UMass-AR6_fourierK2_nssp": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-AR6_fourierK2_nssp.yml",
+        "UMass-gbqr_nih10_ar6fp": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_nih10_ar6fp.yml",
+        "UMass-gbqr_nih10_ar6p": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_nih10_ar6p.yml",
         "UMass-gbqr_5src_utseirs_otid50": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_5src_utseirs_otid50.yml",
         "UMass-gbqr_5src_all_otid100": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_5src_all_otid100.yml",
         "UMass-gbqr_2src_all_otid10": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_2src_all_otid10.yml",
@@ -672,6 +677,7 @@
         "FluSight-baseline": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/FluSight-baseline.yml",
         "UMass-gbqr_2src_all_otid100": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_2src_all_otid100.yml",
         "UMass-gbqr_2src_utseirs_otid50": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_2src_utseirs_otid50.yml",
+        "UMass-gbqr_nih10_wisar": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_nih10_wisar.yml",
         "UMass-gbqr_5src_mobsgleam_otid10": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_5src_mobsgleam_otid10.yml",
         "UMass-gbqr_5src_mobsgleam_otid50": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_5src_mobsgleam_otid50.yml",
         "UMass-gbqr_2src_mobsgleam_otid50": "https://github.com/reichlab/forecast-sandbox-2025-2026/blob/main/model-metadata/UMass-gbqr_2src_mobsgleam_otid50.yml",
