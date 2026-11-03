@@ -1,6 +1,6 @@
 ---
 hub: "reichlab/forecast-sandbox-2025-2026"
-title: "Reich Lab Sandbox Forecast Dashboard 2025/2026"
+title: "Reich Lab Sandbox Forecast Dashboard 2025/2026 and 2026/2027"
 
 html:
   include-after-body:
